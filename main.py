@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 
 # Load variables
 load_dotenv()
-DEEPGRAM_API_KEY = ("ebb6b927c07fb7e9c5d3ac35ef9a8995c77fcb56")
-GEMINI_API_KEY = ("AIzaSyDmFvt16rA4D3LrRqOMSDF4FJW87ZcrqTo")
+DEEPGRAM_API_KEY = ("DEEPGRAM_API_KEY")
+GEMINI_API_KEY = ("GEMINI_API_KEY")
 
 # Initialize both clients explicitly 
 deepgram = DeepgramClient(api_key=DEEPGRAM_API_KEY)
