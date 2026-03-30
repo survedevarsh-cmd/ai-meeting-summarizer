@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+deepgram-sdk
+google-genai
+python-dotenv
+streamlit
+requests
